@@ -304,12 +304,6 @@ header {
   font-size: 37px;
   font-weight: normal; }
 
-.downingtown {
-  background-image: url(../img/downingtown.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 600px; }
-
 .downingtown_text {
   color: white;
   font-size: 35px;
