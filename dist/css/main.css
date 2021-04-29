@@ -304,24 +304,30 @@ header {
   font-size: 37px;
   font-weight: normal; }
 
-.downingtown_text {
-  color: white;
-  font-size: 35px;
-  width: 782px;
+.adress {
   margin: 0 auto;
+  text-align: start; }
+
+.downingtown_text {
+  margin: 0 auto;
+  color: #000;
+  font-size: 35px;
+  justify-content: center;
   font-weight: normal;
-  padding-top: 237px;
-  line-height: 54px; }
+  line-height: 54px;
+  text-align: center; }
 
 .downingtown a {
   font-size: 15px;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   margin-bottom: 2px;
   border-bottom: 1px solid #fff; }
 
 .container_text {
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  align-items: center; }
 
 .stay_in_the_loop {
   background-color: #CED3CA;
