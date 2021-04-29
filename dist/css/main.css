@@ -318,7 +318,8 @@ header {
 .container_text {
   text-align: center;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  padding: 0 15px; }
 
 .stay_in_the_loop {
   background-color: #CED3CA;
@@ -373,7 +374,8 @@ footer {
 .footer_list_right {
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  margin-left: 25px; }
 
 .footer_right {
   text-align: right;
@@ -542,3 +544,13 @@ footer {
   width: 760px;
   height: 600px;
   border: 1px solid black; }
+
+@media screen and (max-width: 1000px) {
+  .final_stock_container {
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 0; }
+  .stock_up {
+    margin: 0 auto; }
+  .final_stock_text {
+    width: auto; } }
