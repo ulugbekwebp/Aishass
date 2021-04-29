@@ -554,3 +554,7 @@ footer {
     margin: 0 auto; }
   .final_stock_text {
     width: auto; } }
+
+@media screen and (max-width: 755px) {
+  .header_nav_list {
+    display: none; } }
