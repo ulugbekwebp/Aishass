@@ -46,12 +46,48 @@
 
   <main>
     <section class="analog">
-      <h3 class="visually-hidden">visually-hidden</h3>
+      <!-- <h3 class="visually-hidden">visually-hidden</h3>
       <section class="container">
         <h3 class="visually-hidden">visually-hidden</h3>
         <p class="analog_text">Analog: The Simplest Productivity System</p>
         <a class="analog_link" href="#">Learn more →</a>
-      </section>
+      </section> -->
+
+      <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img/wide.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="./img/snow.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/nature.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
     </section>
 
     <section class="container buy_container">
@@ -328,7 +364,7 @@
       </section>
     </section>
 
-    <section class="stay_in_the_loop">
+    <!-- <section class="stay_in_the_loop">
       <h3 class="visually-hidden">visually-hidden</h3>
       <section class="container">
         <div class="stay">
@@ -336,12 +372,13 @@
           <p class="stay_text">Be the first to know when new products drop and get behind-the-scenes content straight
             from Ugmonk’s founder.</p>
           <form method="post">
-            <input aria-label="input email" required="" name="email" class="input_email" placeholder="Enter your email" type="email">
+            <input aria-label="input email" required name="email" class="input_email" placeholder="Enter your email"
+              type="email">
             <button class="button_submit" name="submit button" type="submit">→</button>
           </form>
         </div>
       </section>
-    </section>
+    </section> -->
   </main>
 
   <footer>
@@ -380,7 +417,7 @@
     </section>
   </footer>
 
-  
+  <script src="./js/main.js"></script>
 
 </body>
 </html>
