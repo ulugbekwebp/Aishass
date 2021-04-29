@@ -220,7 +220,11 @@ header {
   display: flex;
   align-items: center;
   background-color: #F7F7F7;
-  padding-left: 93px; }
+  padding-left: 93px;
+  background: url(../img/shoes.jpg) center center;
+  background-size: contain;
+  height: 498px;
+  background-repeat: no-repeat; }
 
 .stock_up {
   margin-left: auto; }
@@ -228,7 +232,8 @@ header {
 .final_stock_text {
   font-size: 38px;
   width: 208px;
-  margin-bottom: 33px; }
+  margin-bottom: 33px;
+  text-align: center; }
 
 .shop_sale {
   font-size: 14px;
@@ -557,4 +562,6 @@ footer {
 
 @media screen and (max-width: 755px) {
   .header_nav_list {
-    display: none; } }
+    display: none; }
+  .container_text {
+    flex-direction: column; } }
