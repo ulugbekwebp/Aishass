@@ -64,9 +64,9 @@ header{
   margin: 0 auto;
 }
 
-.nav_logo {
-  margin-left: -65px;
-}
+// .nav_logo {
+//   margin-left: -65px;
+// }
 
 .header_nav_list {
   margin: 0;
@@ -601,4 +601,50 @@ footer{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.lists{
+  display: none;
+}
+
+.second{
+  display: none;
+}
+
+.thrid{
+  display: none;
+}
+
+.four{
+  display: none;
+}
+
+.five{
+  display: none;
+}
+
+.lists-active{
+  display: flex;
+}
+
+.second-active{
+  display: flex;
+}
+
+.thrid-active{
+  display: flex;
+}
+
+.four-active{
+  display: flex;
+}
+
+.five-active{
+  display: flex;
+}
+
+.maps{
+  width: 760px;
+  height: 600px;
+  border: 1px solid black;
 }

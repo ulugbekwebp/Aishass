@@ -96,26 +96,24 @@
       <h3 class="visually-hidden">visually-hidden</h3>
       <form class="buy_nav_list" method="get">
         <label class="buy_nav_item">
-          <input class="visually-hidden buy_nav" type="radio" checked name="nav"><span>New Arrivals</span>
+          <input class="visually-hidden buy_nav buy_nav_arrivals" type="radio" checked name="nav"><span>New
+            Arrivals</span>
         </label>
         <label class="buy_nav_item">
-          <input class="visually-hidden buy_nav" type="radio" name="nav"><span>Final Stock</span>
+          <input class="visually-hidden buy_nav buy_nav_final" type="radio" name="nav"><span>Final Stock</span>
         </label>
         <label class="buy_nav_item">
-          <input class="visually-hidden buy_nav" type="radio" name="nav"><span>Best Sellers</span>
+          <input class="visually-hidden buy_nav buy_nav_best" type="radio" name="nav"><span>Best Sellers</span>
         </label>
         <label class="buy_nav_item">
-          <input class="visually-hidden buy_nav" type="radio" name="nav"><span>Clothing</span>
+          <input class="visually-hidden buy_nav buy_nav_clothing" type="radio" name="nav"><span>Clothing</span>
         </label>
         <label class="buy_nav_item">
-          <input class="visually-hidden buy_nav" type="radio" name="nav"><span>Objects</span>
-        </label>
-        <label class="buy_nav_item">
-          <input class="visually-hidden buy_nav" type="radio" name="nav"><span>Face Masks</span>
+          <input class="visually-hidden buy_nav buy_nav_face" type="radio" name="nav"><span>Face Masks</span>
         </label>
       </form>
 
-      <ul class="buy_list">
+      <ul class="buy_list lists lists-active">
         <li class="buy_item">
           <a href="#">
             <div>
@@ -152,6 +150,8 @@
             <p class="price">$59.00 <span class="span_price"></span></p>
           </a>
         </li>
+      </ul>
+      <ul class="buy_list second">
         <li class="buy_item">
           <a href="#">
             <div>
@@ -188,6 +188,8 @@
             <p class="price">$42.00 <span class="span_price"></span></p>
           </a>
         </li>
+      </ul>
+      <ul class="buy_list thrid">
         <li class="buy_item">
           <a href="#">
             <div>
@@ -224,6 +226,8 @@
             <p class="price">$36.00 <span class="span_price"></span></p>
           </a>
         </li>
+      </ul>
+      <ul class="buy_list four">
         <li class="buy_item">
           <a href="#">
             <div>
@@ -260,6 +264,8 @@
             <p class="price">$52.00 <span class="span_price"></span></p>
           </a>
         </li>
+      </ul>
+      <ul class="buy_list five">
         <li class="buy_item">
           <a href="#">
             <div>
@@ -361,9 +367,12 @@
             <a href="mailto: abc@example.com">Mail: abc@example.com</a>
             <p>Часы работы: с 10:00 до 16:00</p>
           </div>
+         <div class="maps">
           <iframe
-            src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa2ae9dbac08380226011b4ef7643808b734b0b8bd824f3a8c607dac5dd1e6ac0&amp;source=constructor"
-            width="760" height="600" frameborder="0"></iframe>
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa2ae9dbac08380226011b4ef7643808b734b0b8bd824f3a8c607dac5dd1e6ac0&amp;source=constructor"
+        width="100%" height="100%" frameborder="0">
+        </iframe>
+         </div>
         </div>
       </section>
     </section>
@@ -425,7 +434,11 @@
   </footer>
 
   <script src="./js/main.js"></script>
-
+  <script src="js/second.js"></script>
+  <script src="js/2.js"></script>
+  <script src="js/3.js"></script>
+  <script src="js/4.js"></script>
+  <script src="js/5.js"></script>
 </body>
 
 </html>
