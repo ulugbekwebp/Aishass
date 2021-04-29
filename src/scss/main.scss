@@ -677,7 +677,7 @@ footer{
 .maps{
   width: 760px;
   height: 600px;
-  border: 1px solid black;
+  // border: 1px solid black;
 }
 
 @media screen and (max-width: 1000px) {
@@ -703,5 +703,9 @@ footer{
 
   .container_text{
     flex-direction: column;
+  }
+
+  .adress{
+    margin-bottom: 15px;
   }
 }

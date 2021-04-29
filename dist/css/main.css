@@ -547,8 +547,7 @@ footer {
 
 .maps {
   width: 760px;
-  height: 600px;
-  border: 1px solid black; }
+  height: 600px; }
 
 @media screen and (max-width: 1000px) {
   .final_stock_container {
@@ -564,4 +563,6 @@ footer {
   .header_nav_list {
     display: none; }
   .container_text {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .adress {
+    margin-bottom: 15px; } }
