@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Courgette';
   src: url('../fonts/Courgette-Regular.woff2') format('woff2'),
-      url('../fonts/Courgette-Regular.woff') format('woff');
+    url('../fonts/Courgette-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -45,7 +45,7 @@ main {
   background-color: #fff;
 }
 
-header{
+header {
   background-color: rgb(255, 255, 255);
   position: sticky;
   z-index: 1;
@@ -186,7 +186,7 @@ header{
   color: #1A1A1A;
 }
 
-.buy_nav:checked + span{
+.buy_nav:checked+span {
   color: #1A1A1A;
   border-bottom: 1px solid #1A1A1A;
 }
@@ -298,7 +298,8 @@ header{
 
 .final_stock_text {
   font-size: 38px;
-  width: 208px;
+  margin: 0 auto;
+  // width: 208px;
   margin-bottom: 33px;
   text-align: center;
 }
@@ -386,12 +387,12 @@ header{
 //   height: 600px;
 // }
 
-.adress{
+.adress {
   margin: 0 auto;
   text-align: start;
 }
 
-.downingtown_text{
+.downingtown_text {
   margin: 0 auto;
   color: #000;
   font-size: 35px;
@@ -401,102 +402,103 @@ header{
   text-align: center;
 }
 
-.downingtown a{
+.downingtown a {
   font-size: 15px;
   color: #000;
   text-decoration: none;
   margin-bottom: 2px;
   border-bottom: 1px solid #fff;
-  
+
 }
-.container_text{
+
+.container_text {
   text-align: center;
   display: flex;
   align-items: center;
   padding: 0 15px;
 }
 
-.stay_in_the_loop{
+.stay_in_the_loop {
   background-color: #CED3CA;
   padding: 82px 0 129px;
 }
 
-.stay{
+.stay {
   text-align: center;
 }
 
-.stay_title{
+.stay_title {
   font-size: 34px;
   font-weight: normal;
   margin: 0 0 19px;
 }
 
-.stay_text{
+.stay_text {
   display: inline-block;
   width: 370px;
   font-size: 16px;
   margin-bottom: 56px;
 }
 
-.input_email{
+.input_email {
   width: 338px;
   padding: 14px 18px;
   font-size: 16px;
 }
 
-.button_submit{
+.button_submit {
   padding: 16px;
   margin-left: -4px;
 }
 
-footer{
+footer {
   background-color: #F7F7F7;
   padding: 84px 0 104px;
 }
 
-.footer_container{
+.footer_container {
   display: flex;
 }
 
-.footer_nav{
+.footer_nav {
   color: #000;
   text-decoration: none;
 }
 
-.footer_container li{
+.footer_container li {
   margin-bottom: 14px;
 }
 
-.footer_container li:last-child{
+.footer_container li:last-child {
   margin-bottom: 0;
 }
 
-.footer_list_left{
+.footer_list_left {
   margin: 0;
   padding: 0;
   list-style: none;
   margin-right: 157px;
 }
 
-.footer_list_right{
+.footer_list_right {
   margin: 0;
   padding: 0;
   list-style: none;
   margin-left: 25px;
 }
 
-.footer_right{
+.footer_right {
   text-align: right;
   margin-left: auto;
   height: 90px;
 }
 
-.footer_box{
+.footer_box {
   display: flex;
   margin-bottom: 37px;
 }
 
-.footer_text{
+.footer_text {
   width: 233px;
   font-size: 15px;
   font-weight: normal;
@@ -504,19 +506,21 @@ footer{
   margin-right: 24px;
 }
 
-.citec_name{
+.citec_name {
   margin-bottom: 9px;
 }
 
-.social_icon{
+.social_icon {
   margin-right: 16px;
 }
 
-.social_icon:last-child{
+.social_icon:last-child {
   margin-right: 0;
 }
 
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -527,11 +531,12 @@ footer{
 
 /* Hide the images by default */
 .mySlides {
-    display: none;
+  display: none;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -552,8 +557,9 @@ footer{
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -588,7 +594,8 @@ footer{
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -600,7 +607,7 @@ footer{
   animation-duration: 1.5s;
 }
 
-.shoes-1{
+.shoes-1 {
   background: url(../img/shoes.jpg) center center;
   width: 100%;
   height: 498px;
@@ -608,7 +615,7 @@ footer{
   background-repeat: no-repeat;
 }
 
-.shoes-2{
+.shoes-2 {
   background: url(../img/slide2.png) center center;
   width: 100%;
   height: 498px;
@@ -616,7 +623,7 @@ footer{
   background-repeat: no-repeat;
 }
 
-.shoes-3{
+.shoes-3 {
   background: url(../img/slide3.png) center center;
   width: 100%;
   height: 498px;
@@ -625,97 +632,112 @@ footer{
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
-.lists{
+.lists {
   display: none;
 }
 
-.second{
+.second {
   display: none;
 }
 
-.thrid{
+.thrid {
   display: none;
 }
 
-.four{
+.four {
   display: none;
 }
 
-.five{
+.five {
   display: none;
 }
 
-.lists-active{
+.lists-active {
   display: flex;
 }
 
-.second-active{
+.second-active {
   display: flex;
 }
 
-.thrid-active{
+.thrid-active {
   display: flex;
 }
 
-.four-active{
+.four-active {
   display: flex;
 }
 
-.five-active{
+.five-active {
   display: flex;
 }
 
-.maps{
+.maps {
   width: 100%;
   height: 600px;
   // border: 1px solid black;
 }
 
 @media screen and (max-width: 1000px) {
-  .final_stock_container{
+  .final_stock_container {
     flex-direction: column;
     padding-top: 15px;
     padding-left: 0;
   }
 
-  .stock_up{
+  .stock_up {
     margin: 0 auto;
   }
 
-  .final_stock_text{
+  .final_stock_text {
     width: auto;
   }
 }
 
 @media screen and (max-width: 755px) {
-  .header_nav_list{
-    display: none;
-  }
+  // .header__nav {
+  //   display: none;
+  // }
 
-  .container_text{
+  .container_text {
     flex-direction: column;
   }
 
-  .adress{
+  .adress {
     margin-bottom: 15px;
   }
 
-  .maps{
+  .maps {
     // display: none;
     height: 300px;
   }
 
-.nav_right{
-  display: none;
+  .nav_right {
+    display: none;
+  }
+
+  .buy_item{
+    margin-right: 0;
+  }
+  
 }
 
-}
