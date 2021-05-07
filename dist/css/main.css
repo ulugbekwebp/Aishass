@@ -32,13 +32,14 @@ p {
   margin: 0; }
 
 main {
-  background-color: #fff; }
+  background-color: #EBDDE1; }
 
 header {
-  background-color: white;
   position: sticky;
   z-index: 1;
-  top: 0; }
+  top: 0;
+  background: #EBBDC9 url(../img/flowerss.svg) no-repeat;
+  background-position: calc(50% - 650px); }
 
 .nav {
   display: flex;
@@ -157,7 +158,7 @@ header {
   text-decoration: none; }
 
 .buy_item {
-  height: 420px;
+  padding-bottom: 15px;
   width: 275px;
   margin-right: 20px; }
 
@@ -208,11 +209,8 @@ header {
   padding-top: 66px;
   padding-bottom: 171px; }
 
-.buy_container {
-  background-color: #fff; }
-
 .final_stock {
-  background-color: #CED3CA;
+  background-color: #EBDDE1;
   padding: 127px 0; }
 
 .final_stock_container {
@@ -302,7 +300,8 @@ header {
 
 .adress {
   margin: 0 auto;
-  text-align: start; }
+  text-align: start;
+  position: relative; }
 
 .downingtown_text {
   margin: 0 auto;
@@ -354,7 +353,7 @@ header {
   margin-left: -4px; }
 
 footer {
-  background-color: #F7F7F7;
+  background-color: #EBBDC9;
   padding: 84px 0 104px; }
 
 .footer_container {
@@ -447,7 +446,7 @@ footer {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #fff;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
